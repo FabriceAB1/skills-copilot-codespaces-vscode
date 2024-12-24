@@ -49,13 +49,21 @@ Let's try this out utilizing Javascript for Copilot.
    ![Screen Shot 2023-04-27 at 10 23 06 AM](https://user-images.githubusercontent.com/26442605/234941079-b4bf3e9d-fc70-4b20-b74c-0ee753ba344e.png)
 
 5. Press `Tab` to accept the suggestion.
+### clone the respository
+   
+
+   git clone <url-code-local-https>
+
+### created branch
+   git checkout -b <branch-name>
+
 
 ### :keyboard: Activity: Push code to your repository from the codespace
 
 1. Use the VS Code terminal to add the `skills.js` file to the repository:
 
    ```
-   git add skills.js
+   git add .
    ```
 
 2. Next from the VS Code terminal stage and commit the changes to the repository:
@@ -67,7 +75,7 @@ Let's try this out utilizing Javascript for Copilot.
 3. Finally from the VS Code terminal push to code to the repository:
 
    ```
-   git push
+   git push -u origin "<branch-name>
    ```
 
 **Wait about 60 seconds then refresh your repository landing page for the next step.**
